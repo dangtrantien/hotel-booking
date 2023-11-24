@@ -1,0 +1,9 @@
+.section-property h2 {
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+}

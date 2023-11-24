@@ -1,0 +1,30 @@
+.nav-link--container {
+  color: #fff;
+  background-color: #003580;
+}
+
+.container {
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.link:link,
+.link:visited {
+  padding: 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link:hover,
+.link.active {
+  border: 1px solid #fff;
+}
+
+.link i {
+  font-size: 1.6rem;
+}

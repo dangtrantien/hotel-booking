@@ -1,0 +1,16 @@
+.notfound-container {
+  height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.notfound-container a:link,
+.notfound-container a:visited {
+  border-radius: 0.8rem;
+}

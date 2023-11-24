@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #999;
+}
+
+.layout-container {
+  display: grid;
+  grid-template-columns: 15% 1fr;
+}
+
+main {
+  padding: 1.5rem;
+  border-top: 1px solid #d3d3d3d3;
+}
+
+table {
+  height: 100vh;
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  border: 1px solid #d3d3d3d3;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1rem;
+  padding-right: 0;
+  text-align: start;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 1rem;
+}
+
+td {
+  border-top: 1px solid #d3d3d3d3;
+}
+
+th div {
+  padding-right: 1rem;
+  font-weight: 400;
+  border-right: 1px solid #d3d3d3d3;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pagination button {
+  font-size: 1.6rem;
+  color: #999;
+  border: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.status {
+  width: fit-content;
+  padding: 0.5rem;
+  color: #008000;
+  border-radius: 0.5rem;
+}
+
+.booked {
+  background-color: #ff9587;
+}
+
+.checkin {
+  background-color: #18dc3c;
+}
+
+.checkout {
+  background-color: #dbdff1;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+  background-color: inherit;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.add-btn {
+  border: 1px solid #008000;
+  color: #008000;
+}
+
+.add-btn:hover,
+.add-btn:active {
+  color: #fff;
+  background-color: #008000;
+}
+
+.edit-btn {
+  border: 1px solid #ffa500;
+  color: #ffa500;
+}
+
+.edit-btn:hover,
+.edit-btn:active {
+  color: #fff;
+  background-color: #ffa500;
+}
+
+.delete-btn {
+  border: 1px dashed #ff0000;
+  color: #ff0000;
+}
+
+.delete-btn:hover,
+.delete-btn:active {
+  color: #fff;
+  background-color: #ff0000;
+}

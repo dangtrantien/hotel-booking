@@ -1,0 +1,25 @@
+.notfound-container {
+  height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.notfound-container a:link,
+.notfound-container a:visited {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  color: #fff;
+  background-color: #7950f2;
+  transition: background-color 0.3s ease-out;
+}
+
+.notfound-container a:hover,
+.notfound-container a:active {
+  background-color: #6741d9;
+}

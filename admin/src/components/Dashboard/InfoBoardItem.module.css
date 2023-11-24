@@ -1,0 +1,23 @@
+.card-container {
+  height: 15vh;
+  padding: 1rem;
+  flex: 1;
+}
+
+.card {
+  height: 100%;
+  position: relative;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.total {
+  font-size: 2.4rem;
+  font-weight: 300;
+}

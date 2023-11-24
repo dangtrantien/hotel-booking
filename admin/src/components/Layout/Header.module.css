@@ -1,0 +1,10 @@
+.container {
+  padding: 1rem;
+  text-align: center;
+  border-right: 1px solid #d3d3d3d3;
+}
+
+.container h1 {
+  font-size: 2.4rem;
+  color: #7950f2;
+}

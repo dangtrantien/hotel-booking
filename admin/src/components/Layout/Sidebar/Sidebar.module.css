@@ -1,0 +1,45 @@
+.container {
+  min-height: 100vh;
+  padding: 1.5rem;
+  padding-right: 0;
+  grid-column: 1 / 2;
+  border-top: 1px solid #d3d3d3d3;
+  border-right: 1px solid #d3d3d3d3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-container p {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #7950f2;
+}
+
+.list-container button,
+.list-container a:link,
+.list-container a:visited {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #999;
+  background-color: #fff;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list-container button:hover,
+.list-container a:hover,
+.list-container a.active {
+  background-color: #f3f0ff;
+}

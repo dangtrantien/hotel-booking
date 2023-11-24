@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 102.4rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  padding: 1rem;
+  border: none;
+  color: #fff;
+  background-color: #0071c2;
+  transition: background-color 0.3s ease-out;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #025d9e;
+}
+
+.section-search {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.section-transaction {
+  margin-top: 2rem;
+}
+
+.section-transaction h2 {
+  font-size: 2rem;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: start;
+  border: 1px solid #d3d3d3;
+}
+
+th {
+  padding: 1rem;
+}
+
+td {
+  padding: 0.5rem 1rem;
+}
+
+thead {
+  color: #fff;
+  background-color: #15aabf;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f1f3f5;
+}
+
+.status {
+  width: fit-content;
+  padding: 0.5rem;
+  color: #008000;
+  border-radius: 0.5rem;
+}
+
+.booked {
+  background-color: #ff9587;
+}
+
+.checkin {
+  background-color: #18dc3c;
+}
+
+.checkout {
+  background-color: #dbdff1;
+}

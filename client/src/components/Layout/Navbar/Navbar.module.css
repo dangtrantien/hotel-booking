@@ -1,0 +1,35 @@
+.nav-container {
+  padding: 1rem 0;
+  color: #fff;
+  background-color: #003580;
+}
+
+.container {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+}
+
+.action-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.action-container button {
+  padding: 0.6rem 1rem;
+  border: none;
+  color: #003580;
+  transition: color 0.3s ease-out;
+  cursor: pointer;
+}
+
+.action-container button:hover {
+  color: #025d9e;
+}

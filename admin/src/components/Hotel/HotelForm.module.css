@@ -1,0 +1,59 @@
+.card-container {
+  margin-top: 1rem;
+  padding: 1rem 4rem;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 3rem;
+}
+
+.control-container {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-container input,
+.control-container textarea {
+  width: 100%;
+}
+
+.control-container input:focus,
+.control-container textarea:focus {
+  outline: none;
+}
+
+.control-container input {
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.control-container textarea {
+  padding: 1rem;
+  height: 8rem;
+}
+
+.control-container select {
+  width: fit-content;
+}
+
+.control-rooms--container {
+  flex-basis: 100%;
+}
+
+.form-container button {
+  padding: 0.8rem 5rem;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  background-color: #0c8599;
+  transition: background-color 0.3s ease-out;
+}
+
+.form-container button:hover {
+  background-color: #0b7285;
+}
