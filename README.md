@@ -2,7 +2,10 @@
 
 ### • Deploy:
 
-This project was deploy here: []()
+This project was deploy here:
+`1` Admin website: [https://hotel-booking-admin-dangtrantien.vercel.app](https://hotel-booking-admin-dangtrantien.vercel.app)
+
+`2` Client website: [https://hotel-booking-client-dangtrantien.vercel.app](https://hotel-booking-client-dangtrantien.vercel.app)
 
 ### • Description:
 
