@@ -86,12 +86,12 @@ npm start
 
 `1` Authentication: form validation, notification on top of screen.
 
-`3` Admin website: implement CRUD functions, form validation.
+`2` Admin website: implement CRUD functions, form validation.
 
-`4` Client website:
+`3` Client website:
 
 - Show available hotel by search form (placement, date range, number of people renting a room).
 - Show available room by date range.
 - Show history of transaction.
 
-`5` Back-end: response requests, return data to front-end.
+`4` Back-end: response requests, return data to front-end.
